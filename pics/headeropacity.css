@@ -1,0 +1,123 @@
+body {
+  background-image:url('rainbowprism.jpg');
+  font-family: "Candara", "Open Sans", sans-serif;
+  font-size:30px;
+  color: white;
+  }
+
+body2 {
+  background-color: rgba(255, 255, 255, 0);
+    background-size: 100%;
+  font-family: "Candara", "Open Sans", sans-serif;
+  font-size:316px;
+  color: black;
+  }
+  
+a {
+    color: #0783b9;
+  }
+  
+.tiny {
+  font-size: 9px;
+  margin: 0 auto;
+  text-align: center;
+  }
+  
+/*Everything in the main box goes in this*/
+.wrapper {
+  width: 1100px;
+  margin: 0 auto;
+  top: 0px;
+  }
+  
+.header {
+        height:650px;
+      background-image:url('yeahbabyheader.png');
+    background-size: 100% 100%;
+  overflow: hidden;
+margin: 0 auto;
+  
+  }
+  
+/*This and the header-title class are deprecated now that this style uses a background image for the header div.*/
+/*.header img {
+  display: block;
+  opacity: 0.35;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  }
+*/
+
+ /*If you want to use a smaller title or normal text, add .header p or .header h4 or whatever to the list*/
+.header h2, .header h3, .header h1 {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin: 18% auto; /*approx centered*/
+  opacity: 0.999999;
+}
+
+.links {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 10px;
+  text-align: center;
+    color: black;
+  }
+
+.links2 {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-size:60px;
+  }
+
+.links3 {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 30px;
+  text-align: center;
+  color: black;
+  font-size:30px;
+  }
+
+  
+.links a {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 3px;
+  margin-left: 5px;
+  margin-right:5px;
+  text-decoration: none;
+  font-size:17px;
+  }
+
+.main {
+  padding: 15px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.5);
+    text-align: left;
+  }
+  
+/*Prevent overflow of large images in main text areas.*/
+.main img {
+  max-width: 100%;
+  height: auto;
+  }
+
+.subtitle {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 20px;
+  padding-top:5px;
+  padding-bottom:5px;
+  font-size:22px;
+      text-align: center;
+  }
+  
+.footer {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 20px;
+  padding-top:5px;
+  padding-bottom:5px;
+  font-size:15px;
+  }
