@@ -1,19 +1,21 @@
 body {
-  background-image:url('rainbowprism.jpg');
+  background-image:url('rainbowprism3.jpg');
+    background-size: 220px, 220px;
   font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
-  font-size:24px;
+  font-size:22px;
   color: white;
   }
   
 /*Everything in the main box goes in this*/
 .wrapper {
-  width: 1100px;
+  width: 1000px;
   margin: 0 auto;
   top: 0px;
   }
   
 .header {
-        height:650px;
+        height:525px;
+    width:900px;
       background-image:url('yeahbabyheader.png');
     background-size: 100% 100%;
   overflow: hidden;
@@ -53,17 +55,17 @@ margin: 0 auto;
   text-align: center;
   font-weight: bold;
   color: black;
-  font-size:44px;
+  font-size:38px;
   }
 
 
   
 .links a {
-  color: blue;
+  color: red;
   padding: 3px;
   margin-left: 5px;
   margin-right:5px;
-  font-size:24px;
+  font-size:22px;
   }
 
 .main {
