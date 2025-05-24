@@ -12,15 +12,7 @@ body {
   margin: 0 auto;
   top: 0px;
   }
-  
-.header {
-        height:525px;
-    width:900px;
-      background-image:url('yeahbabyheader.png');
-    background-size: 100% 100%;
-  overflow: hidden;
-margin: 0 auto;
-  
+    
   }
   
 /*This and the header-title class are deprecated now that this style uses a background image for the header div.*/
@@ -55,7 +47,7 @@ margin: 0 auto;
   text-align: center;
   font-weight: bold;
   color: black;
-  font-size:38px;
+  font-size:50px;
   }
 
 
