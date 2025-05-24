@@ -106,7 +106,7 @@ body {
 /*For narrow screens*/
 @media(max-width: 790px) {
   .wrapper {
-    width: 75%;
+    width: 95%;
     }
   .header h1, .header h2, .header h3 { /*Vertical centering gets wonky when the box is variable width*/
     margin: 20% 5% auto;
@@ -116,7 +116,7 @@ body {
 /*Mobile compatibility*/
 @media(orientation: portrait) {
   .wrapper {
-    width: 75%;}
+    width: 95%;}
   .header {
     height:230px;
     }
