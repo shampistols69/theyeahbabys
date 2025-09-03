@@ -60,12 +60,12 @@ body {
     
 @media (orientation: portrait), (max-width: 480x) {
    .links, .links a {
-       font-size: 20px !important;
+       font-size: 40px !important;
     }
     
 @media (orientation: portrait), (max-width: 480x) {
    .title {
-       font-size: 30px !important;
+       font-size: 60px !important;
     }
     
 @media (orientation: portrait), (max-width: 480x) {
