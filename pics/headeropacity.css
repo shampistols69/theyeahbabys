@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Short Stack';
+    src: url('ShortStack.woff2') format('woff2'),
+        url('ShortStack.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Rock Salt';
+    src: url('RockSalt-Regular.woff2') format('woff2'),
+        url('RockSalt-Regular.woff') format('woff');
+}
+
+
+body {
+  background-image:url('rainbowprismstar14.gif');
+    background-size: 100px, 100px;
+  font-family: 'Rock Salt' !important;
+  font-size:22px;
+  color: white;
+  }
+
+
+.body2 {}
+  
+/*Everything in the main box goes in this*/
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  top: 0px;
+  }
+    
+  
+/*This and the header-title class are deprecated now that this style uses a background image for the header div.*/
+/*.header img {
+  display: block;
+  opacity: 0.35;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  }
+*/
+
+ /*If you want to use a smaller title or normal text, add .header p or .header h4 or whatever to the list*/
+.header h2, .header h3, .header h1 {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin: 18% auto; /*approx centered*/
+  opacity: 0.999999;
+}
+
+.links {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 10px;
+  text-align: center;
+    color: black;
+  font-family: 'Short Stack' !important;
+  }
+
+.links2 {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 10px;
+  text-align: center;
+    color: black;
+  }
+
+
+.title {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-size:50px;
+  }
+
+.links a {
+  color: red;
+  padding: 3px;
+  margin-left: 5px;
+  margin-right:5px;
+  font-size:22px;
+  }
+
+
+@media (orientation: portrait), (max-width: 480x) {
+  body {
+  background-size: 200px, 200px;
+  }
+
+@media (orientation: portrait), (max-width: 480x) {
+   .body2 img{
+       width: 100% !important;
+       height: auto !important;
+       } 
+
+@media (orientation: portrait), (max-width: 480x) {
+   .links2 img {
+       width: auto !important;
+       height: auto !important;
+       }
+    
+@media (orientation: portrait), (max-width: 480x) {
+   .links img, .links video {
+       max-width: 90% !important;
+       height: auto !important;
+       }
+    
+@media (orientation: portrait), (max-width: 480x) {
+   .links, .links a {
+       font-size: 50px !important;
+    }
+    
+@media (orientation: portrait), (max-width: 480x) {
+   .title {
+       font-size: 80px !important;
+    }
+    
+@media (orientation: portrait), (max-width: 480x) {
+   iframe {
+    width: 90% !important;
+    height:500px !important;
+    }
+
+
+
+
+.main {
+  padding: 15px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.5);
+    text-align: left;
+  }
+  
+
+
+.subtitle {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 20px;
+  padding-top:5px;
+  padding-bottom:5px;
+  font-size:22px;
+      text-align: center;
+  }
+  
+
